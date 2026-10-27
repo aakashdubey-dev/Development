@@ -22,3 +22,66 @@ img{
     width: 40vw;
     width: 94vh;*/
 }
+.border1{
+    border: 2px solid green;
+    height: 350px;
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    align-items:flex-start;
+    
+}
+.sub-border{
+    border: 2px solid black;
+    background-color: aqua;
+    color: black;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+}
+.text{
+    font-size: 16px;
+}
+.main-border{
+    border: 2px solid black;
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+}
+.main-border{
+    border: 2px solid black;
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+    displaY: flex;
+    align-items: center;
+    /*justify-content: space-around;*/
+    /*justify-content: space-between*/
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text{
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 320px;
+}
